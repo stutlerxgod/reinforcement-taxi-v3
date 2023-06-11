@@ -1,4 +1,4 @@
-from q import QlearningAgent, SarsaAgent, ValueAgent
+from agents import QlearningAgent, SarsaAgent, ValueAgent
 
 
 if __name__ == '__main__':
