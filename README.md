@@ -9,5 +9,17 @@ The environment is represented by a 5×5 grid, with walls blocking certain paths
 passengers and destinations represented by colored squares. 500 states.
 The agent receives a reward for successfully picking up and dropping off passengers. However, the agent also incurs a penalty for each time step is taken and for illegal actions, such as attempting to pick up a passenger who is already in the taxi.
 Actions: move south, move north, move east, move west, pick up a passenger, drop off a passenger.
-More info here: 
-  [Gym Documentation]: https://www.gymlibrary.dev
+</br>More info here: [Gym Documentation]: https://www.gymlibrary.dev
+
+## The files of this project are structured as follows:
+- <code>'agents.py'</code> contains:
+ - Qlearning algorithm class 
+ - Sarsa algorithm class
+ - Value-iteration algorithm class
+
+- <code>'main.py'</code> contains:
+	- main for running the train and tests methods for each algorithm
+
+- <code>'requirements.txt'</code> contains:
+	- Libraries Installation
+
