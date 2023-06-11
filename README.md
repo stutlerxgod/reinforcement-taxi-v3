@@ -30,4 +30,4 @@ For each algorithm, you can run a training method.
 </br>Similarly, you can run test method <code>agent1.test()</code>
 
 If you want to change hyperparameters such as: learning rate, discount factor, epochs, 
-use <code>QlearningAgent(0.9, 0.6, 2000)</code>
+use </br><code>QlearningAgent(0.9, 0.6, 2000)</code>
