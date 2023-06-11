@@ -25,7 +25,8 @@ Actions: move south, move north, move east, move west, pick up a passenger, drop
 ## Overview
 
 For each algorithm, you can run a training method.
-<code>agent1 = QlearningAgent()</br>agent1.train()</code>
+<code>agent1 = QlearningAgent()</code> 
+</br><code>agent1.train()</code>
 </br>After that, policy file will be generated and saved to main path.
 </br>Similarly, you can run test method <code>agent1.test()</code>
 
