@@ -23,3 +23,13 @@ Actions: move south, move north, move east, move west, pick up a passenger, drop
 - <code>'requirements.txt'</code> contains:
 	- Libraries Installation
 
+## Overview
+
+For each algorithm, you can run a training method.
+<code>agent1 = QlearningAgent()</br>agent1.train()</code>
+After that, policy file will be generated and saved to main path.
+Similarly, you can run test method
+<code>agent1.test()</code>
+
+If you want to change hyperparameters such as: learning rate, discount factor, epochs, 
+use <code>QlearningAgent(0.9, 0.6, 2000)</code>
