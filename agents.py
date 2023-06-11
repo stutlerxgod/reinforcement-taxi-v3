@@ -25,7 +25,7 @@ class QlearningAgent:
             action = argmax(self.q_table[state])  # Exploit learned values
         return action
 
-    def _step(self, action):
+    def step(self, action):
         new_state, reward, done, _, __ = self.env.step(action)
         return new_state, reward, done
 
