@@ -1,4 +1,4 @@
-# reinforcement-taxi-v3
+# Reinforcement-taxi-v3
 Q-learning, SARSA, Value-iteration for Taxi-v3 problem of python Gym library.
 Reinforcement Learning
 
@@ -11,7 +11,7 @@ The agent receives a reward for successfully picking up and dropping off passeng
 Actions: move south, move north, move east, move west, pick up a passenger, drop off a passenger.
 </br>More info here: [Gym Documentation]: https://www.gymlibrary.dev
 
-## The files of this project are structured as follows:
+## Project files:
 - <code>'agents.py'</code> contains algorithm classes:
 	- Qlearning 
 	- Sarsa
