@@ -12,13 +12,13 @@ Actions: move south, move north, move east, move west, pick up a passenger, drop
 </br>More info here: [Gym Documentation]: https://www.gymlibrary.dev
 
 ## The files of this project are structured as follows:
-- <code>'agents.py'</code> contains:
- - Qlearning algorithm class 
- - Sarsa algorithm class
- - Value-iteration algorithm class
+- <code>'agents.py'</code> contains algorithm classes:
+	- Qlearning 
+	- Sarsa
+	- Value-iteration 
 
 - <code>'main.py'</code> contains:
-	- main for running the train and tests methods for each algorithm
+	- running the train and tests methods for each algorithm
 
 - <code>'requirements.txt'</code> contains:
 	- Libraries Installation
