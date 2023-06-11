@@ -9,5 +9,5 @@ The environment is represented by a 5×5 grid, with walls blocking certain paths
 passengers and destinations represented by colored squares. 500 states.
 The agent receives a reward for successfully picking up and dropping off passengers. However, the agent also incurs a penalty for each time step is taken and for illegal actions, such as attempting to pick up a passenger who is already in the taxi.
 Actions: move south, move north, move east, move west, pick up a passenger, drop off a passenger.
-More info here: Taxi - [Gym Documentation](https://www.gymlibrary.dev/){:target="_blank" rel="noopener"}
-
+More info here: 
+  [Gym Documentation]: https://www.gymlibrary.dev
